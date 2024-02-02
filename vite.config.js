@@ -16,10 +16,10 @@ export default defineConfig({
     },
    server:{
       port: 5173,
-      https: {
-         key: readFileSync(resolve('localhost-key.pem')),
-         cert: readFileSync(resolve('localhost.pem'))
+      // https: {
+      //    key: readFileSync(resolve('localhost-key.pem')),
+      //    cert: readFileSync(resolve('localhost.pem'))
 
-      }
+      // }
    }
 })
